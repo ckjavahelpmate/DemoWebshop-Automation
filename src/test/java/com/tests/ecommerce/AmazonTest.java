@@ -1,5 +1,6 @@
 package com.tests.ecommerce;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.genericlibrary.BaseTest;
@@ -16,6 +17,8 @@ public class AmazonTest extends BaseTest {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+		
+		Assert.assertTrue(false);
 	}
 
 }
