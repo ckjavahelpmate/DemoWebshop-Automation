@@ -71,7 +71,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>testngXmls/regressionExecution.xml</suiteXmlFile>
-						<suiteXmlFile>testngXmls/parallelExecution.xml</suiteXmlFile>
+						<suiteXmlFile>testngXmls/smokeExecution.xml</suiteXmlFile>
 					</suiteXmlFiles>
 
 					<!--<includes>
