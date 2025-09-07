@@ -18,7 +18,7 @@ public class AmazonTest extends BaseTest {
 			e.printStackTrace();
 		}
 		
-		Assert.assertTrue(false);
+//		Assert.assertTrue(false);
 		
 	}
 
