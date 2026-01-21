@@ -6,13 +6,16 @@ public class Calculator {
 
 	public static void main(String[] args) 
 	{
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter first num :");
-		int num1 = scan.nextInt();
-		System.out.println("Enter second num:");
-		int num2 = scan.nextInt();
-		int res = num1  + num2 ;
-		System.out.println("Result : "+ res );
+
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter first number: ");
+        int num1 = sc.nextInt();
+        System.out.print("Enter second number: ");
+        int num2 = sc.nextInt();
+        int res = num1 + num2;
+        System.out.println("Result: " + res);
+        
+        sc.close();
 
 	}
 
