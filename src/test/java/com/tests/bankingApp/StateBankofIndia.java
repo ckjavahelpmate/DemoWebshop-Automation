@@ -3,10 +3,11 @@ package com.tests.bankingApp;
 import org.testng.annotations.Test;
 
 import com.genericlibrary.BaseTest;
+import com.listeners.MyAutoRetry;
 
 public class StateBankofIndia extends BaseTest
 {
-	@Test(groups = {"bank","regression"})
+	@Test(groups = {"bank","regression"}, retryAnalyzer = MyAutoRetry.class)
 	public void sbiTest() 
 	{
 		drivers.get().get("https://onlinesbi.sbi.bank.in/");
