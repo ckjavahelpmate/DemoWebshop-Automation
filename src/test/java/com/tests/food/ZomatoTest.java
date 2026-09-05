@@ -9,7 +9,10 @@ public class ZomatoTest extends BaseTest {
 	
 	@Test( groups = {"food", "regression"})
 	public void zomatoAppOpen() {
-		
+		String username = System.getenv("API_USERNAME");
+		String password = System.getenv("API_PASSWORD");
+		System.out.println("Username : "+ username);
+		System.out.println("Pasword : "+ password);
 		
 		drivers.get().get("https://www.zomato.com");
 
