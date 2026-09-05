@@ -11,8 +11,11 @@ public class ZomatoTest extends BaseTest {
 	public void zomatoAppOpen() {
 		String username = System.getenv("API_USERNAME");
 		String password = System.getenv("API_PASSWORD");
+		
+		System.out.println("===========================================================================");
 		System.out.println("Username : "+ username);
 		System.out.println("Pasword : "+ password);
+		System.out.println("===========================================================================");
 		
 		drivers.get().get("https://www.zomato.com");
 
